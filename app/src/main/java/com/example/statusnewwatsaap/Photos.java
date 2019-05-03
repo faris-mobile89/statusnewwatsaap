@@ -31,7 +31,7 @@ public class Photos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.photosa_activity);
+        setContentView(R.layout.details_photos);
         FirebaseApp.initializeApp(this);
 
         ActionBar actionBar = getSupportActionBar();

@@ -43,7 +43,7 @@ public class Details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.details_photos);
+        setContentView(R.layout.photosa_activity);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("pig photo");
         // set backbutton in action bar
