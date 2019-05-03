@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    tools:context=".Onclike">
+    <LinearLayout
+
+        android:id="@+id/l1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/loadimage"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:id="@+id/imageview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:text="share"
+                android:id="@+id/botton1"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp"
+                android:layout_gravity="center_horizontal"/>
+            <Button
+                android:text="save"
+                android:id="@+id/botton2"
+                android:layout_width="wrap_content"
+                android:layout_height="66dp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
