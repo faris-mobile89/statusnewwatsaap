@@ -26,6 +26,7 @@ public class Images extends AppCompatActivity {
     FirebaseDatabase mFirebaseDatabase;
     DatabaseReference mRef;
     // private static final int NUM_COLUMNS=2;
+    FirebaseRecyclerAdapter<Model, ViewHolder> firebaseRecyclerAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,21 +34,21 @@ public class Images extends AppCompatActivity {
         setContentView(R.layout.activity_images);
         FirebaseApp.initializeApp(this);
 
-        ActionBar actionBar=getSupportActionBar();
+        ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("post list");
 
-        mRecyclerView=findViewById(R.id.rrecycleview );
+        mRecyclerView = findViewById(R.id.rrecycleview);
         mRecyclerView.setHasFixedSize(true);
 
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
         mFirebaseDatabase = FirebaseDatabase.getInstance();
-        mRef=mFirebaseDatabase.getReference("Data");
+        mRef = mFirebaseDatabase.getReference("Data");
     }
 
     @Override
     protected void onStart() {
         super.onStart();
-        FirebaseRecyclerAdapter<Model, ViewHolder> firebaseRecyclerAdapter =
+        firebaseRecyclerAdapter =
                 new FirebaseRecyclerAdapter<Model, ViewHolder>(
                         Model.class,
                         R.layout.raw,
@@ -57,34 +58,19 @@ public class Images extends AppCompatActivity {
                 ) {
                     @Override
                     protected void populateViewHolder(ViewHolder viewHolder, Model model, int position) {
-                        viewHolder.setDetails(getApplicationContext(),model.getImage());
-
+                        viewHolder.setDetails(getApplicationContext(), model.getImage());
                     }
 
                     @Override
                     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-                        ViewHolder viewHolder=super.onCreateViewHolder(parent,viewType);
+                        ViewHolder viewHolder = super.onCreateViewHolder(parent, viewType);
                         viewHolder.setOnClickListener(new ViewHolder.ClickListener() {
                             @Override
                             public void onItemClick(View view, int position) {
-                                //views
-                                // TextView mTitletv=view.findViewById(R.id.rTitletv);
-                                // TextView mDesctv=view.findViewById(R.id.rDescritiontv);
-                                ImageView mImageview=view.findViewById(R.id.rImageview);
-                                //get data from view
-                                //     String mTitle=mTitletv.getText().toString();
-                                //   String mDesc=mTitletv.getText().toString();
-                                Drawable mDrawable=mImageview.getDrawable();
-                                Bitmap mbitmap=((BitmapDrawable)mDrawable).getBitmap();
-                                //pass this data to new activity
-                                Intent intent=new Intent(view.getContext(),Onclike.class);
-                                ByteArrayOutputStream stream=new ByteArrayOutputStream();
-                                mbitmap.compress(Bitmap.CompressFormat.PNG,100,stream);
-                                byte[] bytes=stream.toByteArray();
-                                intent.putExtra("image",bytes);//put mipmab image ass array of byte
-                                // intent.putExtra("title",mTitle); // put title
-                                //intent.putExtra("descrition",mDesc); // put description
-                                startActivity(intent);//start activity
+                                Model model = firebaseRecyclerAdapter.getItem(position);
+                                Intent intent = new Intent(view.getContext(), Onclike.class);
+                                intent.putExtra("model", model);
+                                startActivity(intent);
                             }
 
                             @Override

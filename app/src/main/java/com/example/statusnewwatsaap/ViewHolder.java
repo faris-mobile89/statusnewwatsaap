@@ -31,6 +31,7 @@ public class ViewHolder extends RecyclerView.ViewHolder {
             }
         });
     }
+
     public void setDetails(Context ctx, String image){
         //  TextView mTitletv=mView.findViewById(R.id.rTitletv);
         // TextView mDecription=mView.findViewById(R.id.rDescritiontv);
