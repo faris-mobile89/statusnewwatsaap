@@ -32,7 +32,7 @@ import java.text.SimpleDateFormat;
 import java.util.Locale;
 
 
-public class Onclike extends AppCompatActivity {
+public class Details extends AppCompatActivity {
     Button button, button2;
     //TextView mTitletv,mDecription ;
     private ImageView mImageView;
@@ -43,7 +43,7 @@ public class Onclike extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_onclike);
+        setContentView(R.layout.details_photos);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("pig photo");
         // set backbutton in action bar
@@ -84,7 +84,7 @@ public class Onclike extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                shareImage(model.getImage(),Onclike.this);
+                shareImage(model.getImage(),Details.this);
             }
         });
     }

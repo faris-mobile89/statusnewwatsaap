@@ -9,7 +9,7 @@
     app:cardElevation="3dp"
     app:contentPadding="5dp"
     app:cardUseCompatPadding="true"
-    tools:context=".Onclike">
+    tools:context=".Details">
     <LinearLayout
 
         android:id="@+id/l1"

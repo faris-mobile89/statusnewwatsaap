@@ -14,9 +14,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ViewHolder"></activity>
-        <activity android:name=".Onclike" />
+        <activity android:name=".Details" />
         <activity android:name=".Model" />
-        <activity android:name=".Images" >
+        <activity android:name=".Photos" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

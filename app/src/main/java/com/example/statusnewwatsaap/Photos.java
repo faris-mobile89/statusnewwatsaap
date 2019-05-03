@@ -21,7 +21,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import java.io.ByteArrayOutputStream;
 
 
-public class Images extends AppCompatActivity {
+public class Photos extends AppCompatActivity {
     RecyclerView mRecyclerView;
     FirebaseDatabase mFirebaseDatabase;
     DatabaseReference mRef;
@@ -31,7 +31,7 @@ public class Images extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_images);
+        setContentView(R.layout.photosa_activity);
         FirebaseApp.initializeApp(this);
 
         ActionBar actionBar = getSupportActionBar();
@@ -68,7 +68,7 @@ public class Images extends AppCompatActivity {
                             @Override
                             public void onItemClick(View view, int position) {
                                 Model model = firebaseRecyclerAdapter.getItem(position);
-                                Intent intent = new Intent(view.getContext(), Onclike.class);
+                                Intent intent = new Intent(view.getContext(), Details.class);
                                 intent.putExtra("model", model);
                                 startActivity(intent);
                             }
