@@ -8,7 +8,7 @@ import java.io.Serializable;
 public class Model implements Serializable {
     String  image;
 
-    public Model() {
+    public Model(String id, String title, String desc) {
 
     }
 
