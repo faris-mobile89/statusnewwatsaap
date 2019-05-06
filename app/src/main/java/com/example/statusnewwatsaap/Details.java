@@ -5,8 +5,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Build;
@@ -43,7 +41,7 @@ public class Details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.photosa_activity);
+        setContentView(R.layout.details_layout);
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("pig photo");
         // set backbutton in action bar
@@ -113,26 +111,6 @@ public class Details extends AppCompatActivity {
         }
     }
 
-//    private void shareImage() {
-//        //File path = Environment.getExternalStorageDirectory();
-//        // create folder named "firebace"
-//        try {
-//            File file = new File(getExternalCacheDir(), "whatsapp-status.png");
-//            FileOutputStream fOut = new FileOutputStream(file);
-//            bitmap.compress(Bitmap.CompressFormat.PNG, 100, fOut);
-//            fOut.flush();
-//            fOut.close();
-//            file.setReadable(true, false);
-//            Intent intent = new Intent(Intent.ACTION_SEND);
-//            intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//            //intent.putExtra(intent.EXTRA_TEXT,s);
-//            intent.putExtra(Intent.EXTRA_STREAM, Uri.fromFile(file));
-//            intent.setType("image/*");
-//            startActivity(Intent.createChooser(intent, "Share via"));
-//        } catch (Exception e) {
-//            Toast.makeText(this, e.getMessage(), Toast.LENGTH_LONG).show();
-//        }
-//    }
 
     static public Uri getLocalBitmapUri(Bitmap bmp, Context context) {
         Uri bmpUri = null;

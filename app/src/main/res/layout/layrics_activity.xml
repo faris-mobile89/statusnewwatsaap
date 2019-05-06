@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Layrics">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rectangle"
+            android:padding="15dp"
+            android:text="@string/l1"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rectangle"
+            android:padding="15dp"
+            android:text="@string/l2"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+        <Button
+            android:id="@+id/t3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rectangle"
+            android:padding="15dp"
+            android:text="@string/l3"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+
+            />
+
+
+        <Button
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rectangle"
+            android:padding="15dp"
+            android:text="@string/l4"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+
+            android:textStyle="bold"
+
+            />
+
+
+        <Button
+            android:id="@+id/t5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rectangle"
+            android:text="@string/l5"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+
+            />
+
+        <Button
+            android:id="@+id/t6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/custom_rectangle"
+            android:text="@string/l6"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l7"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l8"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l9"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l10"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l11"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l12"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l13"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l14"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l15"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l16"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l17"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l18"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l19"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l20"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l21"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l22"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l23"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l24"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l25"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l26"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l27"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l28"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t29"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l29"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l30"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l31"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l32"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l33"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l34"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l35"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l36"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l37"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l38"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l39"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t40"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l40"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l41"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l42"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l43"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l44"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l45"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l46"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l47"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l48"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t49"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l49"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l50"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l51"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l52"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l53"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l54"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l55"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l56"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l57"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l58"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/l59"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+            android:id="@+id/t60"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_rectangle"
+            android:text="@string/l60"
+            android:textIsSelectable="true"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</ScrollView>

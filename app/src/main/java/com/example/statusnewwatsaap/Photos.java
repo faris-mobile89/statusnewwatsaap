@@ -1,9 +1,6 @@
 package com.example.statusnewwatsaap;
 
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -11,14 +8,11 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-
-import java.io.ByteArrayOutputStream;
 
 
 public class Photos extends AppCompatActivity {
@@ -31,7 +25,7 @@ public class Photos extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.details_photos);
+        setContentView(R.layout.photos_layout);
         FirebaseApp.initializeApp(this);
 
         ActionBar actionBar = getSupportActionBar();
@@ -48,8 +42,7 @@ public class Photos extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        firebaseRecyclerAdapter =
-                new FirebaseRecyclerAdapter<Model, ViewHolder>(
+        firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Model, ViewHolder>(
                         Model.class,
                         R.layout.raw,
                         ViewHolder.class,
