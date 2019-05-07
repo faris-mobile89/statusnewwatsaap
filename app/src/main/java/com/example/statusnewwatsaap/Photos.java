@@ -50,8 +50,7 @@ public class Photos extends AppCompatActivity {
         super.onStart();
 
         Query query = FirebaseDatabase.getInstance()
-                .getReference()
-                .child("Data");
+                .getReference("data");
 
         FirebaseRecyclerOptions<Model> options =
                 new FirebaseRecyclerOptions.Builder<Model>()
@@ -78,6 +77,7 @@ public class Photos extends AppCompatActivity {
 
             @Override
             protected void onBindViewHolder(ViewHolder holder, final int position, Model model) {
+                holder.setDetails(Photos.this, model.getImage());
                 //holder.setTxtTitle(model.getmTitle());
                 //holder.setTxtDesc(model.getmDesc());
 

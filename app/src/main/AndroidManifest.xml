@@ -17,9 +17,7 @@
         android:theme="@style/AppTheme">
 
 
-        <activity android:name=".ViewHolder" />
         <activity android:name=".Details" />
-        <activity android:name=".Model" />
         <activity android:name=".Photos" />
         <activity android:name=".Splash" />
         <activity android:name=".Layrics" />
